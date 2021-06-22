@@ -91,7 +91,7 @@ void WelcomeMessage()
     gotoxy(x, y + 4);
     printf("      |_|");
     gotoxy(x, y + 6);
-    printf("                 Presione cualquier tecla para empezar");
+    printf("                PRESS ANY KEY TO CONTINUE/ Presione cualquier tecla para empezar");
 }
 
 void GameOverDefeatMessage()

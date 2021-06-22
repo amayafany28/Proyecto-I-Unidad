@@ -35,7 +35,7 @@ void inicializarArreglo()
 
 void dificultad() 
 {
-	cout<<"Snake \n elija una dificultad para alterar la velocidad \n 1: facil \n 2: media"<<endl;
+	cout<<"Snake \n Choose the difficulty you want to play/ Elija la dificultad que desea jugar  \n 1: Slowly/Despacio \n 2: Fast/Rapido"<<endl;
 	cin>>d;
 	switch(d){
 		case 1:
@@ -205,7 +205,7 @@ int snake()
 	}
 	
 	if ( !gameover()){
-		MessageBox(NULL,"Has perdido","Perdedor", MB_OK);
+		MessageBox(NULL,"YOU HAVE LOST THE GAME/ Has perdido el Juego","LOSER/ Perdedor", MB_OK);
 		system("cls");
 	}
 	

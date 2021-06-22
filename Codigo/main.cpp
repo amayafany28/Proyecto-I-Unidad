@@ -19,17 +19,19 @@ int main(int argc, char const *argv[])
         system ("cls");
 
         cout << endl;
+
+        cout << "* Welcome to the Game / Bienvenido al Juego *" << endl;
         
-        cout << "* Menu  de Juegos *" << endl;
+        cout << "* Games Menu/  Menu  de Juegos *" << endl;
  
         cout << endl;
-        cout << " ELIGE TU RETO DE HOY! " << endl;
+        cout << " Choose Your Game Please/ ELIGA SU JUEGO POR FAVOR! " << endl;
         cout << endl;
         cout << "1 - starShip" << endl;
         cout << "2 - snake" << endl;
         cout << "0 - Salir" << endl;
         cout << endl;
-        cout << "Ingrese una opcion del menu: ";
+        cout << "Ingrese una opcion del menu/ Ingrese una opcion del menu: ";
         cin >> opcion;
         
         switch (opcion)
