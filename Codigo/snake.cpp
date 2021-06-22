@@ -35,7 +35,7 @@ void inicializarArreglo()
 
 void dificultad() 
 {
-	cout<<"Snake \n Elija una dificultad para alterar la velocidad \n 1: facil \n 2: medio"<<endl;
+	cout<<"Snake \n elija una dificultad para alterar la velocidad \n 1: facil \n 2: media"<<endl;
 	cin>>d;
 	switch(d){
 		case 1:
@@ -205,10 +205,11 @@ int snake()
 	}
 	
 	if ( !gameover()){
-		MessageBox(NULL,"Has perdido""Perdedor", MB_OK);
+		MessageBox(NULL,"Has perdido","Perdedor", MB_OK);
 		system("cls");
 	}
 	
 	system("pause>NULL");
 	return 0;
 }
+
